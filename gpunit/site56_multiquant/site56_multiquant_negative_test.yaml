@@ -1,0 +1,15 @@
+#
+# This job should fail because skyline.export is TRUE
+#
+module: AuDIT
+params:
+    # data.file: site56-7.1-multiquant-data.csv
+    data.file: ftp://ftp.broadinstitute.org/pub/genepattern/example_files/AuDIT/site56-7.1-multiquant-data.csv
+    skyline.export: "TRUE"
+    pvalue.threshold: "0.00001"
+    cv.threshold: "0.2"
+    all.pairs: "FALSE"
+    output.intermediate.results: "FALSE"
+    output.prefix: "<data.file_basename>-results"
+assertions:
+    jobStatus: error
