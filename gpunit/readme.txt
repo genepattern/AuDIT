@@ -12,3 +12,11 @@ To clean up
 This works best (it's only been tested) after you have run gpunit from the gpunit.dir, e.g.
     cd ../../util/gp-unit
     ant 
+
+============== UPDATE 12/10/2024 ===============================
+export GPUNIT_HOME=/Users/liefeld/GenePattern/gp_dev/GpUnit
+ant -f ${GPUNIT_HOME}/build.xml -Dgpunit.diffStripTrailingCR="--strip-trailing-cr" -Dgp.host="beta.genepattern.org" -Dgp.url="https://beta.genepattern.org" -Dgp.user="**USERNAME**" -Dgp.password="**PUT_PASSWORD_HERE" -Dgpunit.testfolder=`pwd` gpunit
+
+
+
+
