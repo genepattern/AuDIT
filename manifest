@@ -86,4 +86,4 @@ serializedModel=
 taskType=Proteomics
 userid=manidr
 taskDoc=doc.html
-version=added bug fix for "arguments imply differing number of rows" error
+version=Dockerized for cloud
