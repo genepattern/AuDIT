@@ -3,7 +3,7 @@
 JVMLevel=
 LSID=urn\:lsid\:broad.mit.edu\:cancer.software.genepattern.module.analysis\:00172
 author=D. R. Mani, The Broad Institute
-commandLine=<R2.5> <libdir>AuDIT.R parse.cmdline <libdir> <data.file> <output.prefix> <pvalue.threshold> <cv.threshold> <all.pairs> <skyline.export> <output.intermediate.results>  
+commandLine=java -Dr_flags="--no-save --quiet --slave --no-restore"  RunR /build/audit/AuDIT.R parse.cmdline /build/audit <data.file> <output.prefix> <pvalue.threshold> <cv.threshold> <all.pairs> <skyline.export> <output.intermediate.results>  
 cpuType=any
 description=Automated Detection of Inaccurate and Imprecise Transitions in MRM Mass Spectrometry
 fileFormat=csv
