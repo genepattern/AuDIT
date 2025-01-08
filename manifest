@@ -1,9 +1,11 @@
+#Mon, 02 Dec 2024 08:17:41 -0800
 #AuDIT
 #Wed Sep 21 13:56:38 EDT 2011
 JVMLevel=
-LSID=urn\:lsid\:broad.mit.edu\:cancer.software.genepattern.module.analysis\:00172
+LSID=urn\:lsid\:broad.mit.edu\:cancer.software.genepattern.module.analysis\:00172\:999999999
 author=D. R. Mani, The Broad Institute
-commandLine=<R2.5> <libdir>AuDIT.R parse.cmdline <libdir> <data.file> <output.prefix> <pvalue.threshold> <cv.threshold> <all.pairs> <skyline.export> <output.intermediate.results>  
+# -Dr_flags\="--no-save --quiet --slave --no-restore"
+commandLine=java -DR_HOME\=/usr/local/lib64/R -cp /build RunR /build/audit/AuDIT.R parse.cmdline /build/audit/ <data.file> <output.prefix> <pvalue.threshold> <cv.threshold> <all.pairs> <skyline.export> <output.intermediate.results>  
 cpuType=any
 description=Automated Detection of Inaccurate and Imprecise Transitions in MRM Mass Spectrometry
 fileFormat=csv
@@ -78,7 +80,7 @@ p7_value=
 
 pipelineModel=
 privacy=private
-quality=production
+quality=${quality.level}
 requiredPatchLSIDs=
 requiredPatchURLs=
 serializedModel=
@@ -86,3 +88,5 @@ taskType=Proteomics
 userid=manidr
 taskDoc=doc.html
 version=added bug fix for "arguments imply differing number of rows" error
+
+publicationDate=12/02/2024 08\:17 
