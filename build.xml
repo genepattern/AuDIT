@@ -9,7 +9,6 @@
 			<fileset dir="src">
 				<include name="*.R" />
 			</fileset>
-            <!-- fileset dir="lib"/  -->
         </zip>
 		<antcall target="postzip" />
 	</target>
