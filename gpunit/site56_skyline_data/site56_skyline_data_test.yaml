@@ -13,7 +13,7 @@ module: AuDIT
 params:
     #data.file: site56-7.1-skyline-data.csv
     #data.file: ftp://gpftp.broadinstitute.org/tmp/sqa/TestFiles/AuDIT/v3/site56-7.1-skyline-data.csv
-    data.file: ftp://ftp.broadinstitute.org/pub/genepattern/example_files/AuDIT/site56-7.1-skyline-data.csv
+    data.file: site56-7.1-skyline-data.xls
     skyline.export: "FALSE"
     pvalue.threshold: "0.00001"
     cv.threshold: "0.2"

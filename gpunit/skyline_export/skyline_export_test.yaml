@@ -11,9 +11,9 @@
 #    output.prefix = <data.file_basename>-results
 module: AuDIT
 params:
-    #data.file: skyline-export-data.csv
+    data.file: skyline-export-data.xls
     #data.file: ftp://gpftp.broadinstitute.org/tmp/sqa/TestFiles/AuDIT/v3/skyline-export-data.csv
-    data.file: ftp://ftp.broadinstitute.org/pub/genepattern/example_files/AuDIT/skyline-export-data.csv
+    #data.file: ftp://ftp.broadinstitute.org/pub/genepattern/example_files/AuDIT/skyline-export-data.csv
     skyline.export: "TRUE"
     pvalue.threshold: "0.00001"
     cv.threshold: "0.2"
