@@ -1,3 +1,5 @@
+#updated after building 8.2
+#Fri, 10 Jan 2025 17:08:25 -0500
 #updated after building 8.1
 #Thu, 09 Jan 2025 13:59:00 -0500
 #prerelease version number
@@ -16,4 +18,4 @@
 #Fri, 03 Aug 2012 16:52:10 -0400
 #prerelease version number
 #Fri Dec 02 09:06:04 EST 2011
-prerelease.number=2
+prerelease.number=3
