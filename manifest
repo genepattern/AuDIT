@@ -11,7 +11,7 @@ fileFormat=csv
 language=any
 name=AuDIT
 os=any
-job.docker.image=genepattern/audit:0.3
+job.docker.image=genepattern/audit:0.4
 
 p1_MODE=IN
 p1_TYPE=FILE
