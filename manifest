@@ -87,6 +87,6 @@ serializedModel=
 taskType=Proteomics
 userid=manidr
 taskDoc=doc.html
-version=added bug fix for "arguments imply differing number of rows" error
+version=Now has a custom docker container
 
 publicationDate=12/02/2024 08\:17 
